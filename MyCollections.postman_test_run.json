@@ -1,0 +1,88 @@
+{
+	"id": "a41a91e6-d085-470c-bcb5-14965a065b57",
+	"name": "MyCollections",
+	"timestamp": "2025-09-08T16:06:09.710Z",
+	"collection_id": "40740348-67f9b0e2-7172-4387-82f2-a1884d2abf28",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-09-08T16:06:03.977Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1082e01f-af8a-40d6-8700-93931a3d2da1",
+			"name": "GetUser",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 3343,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3343
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6cee5710-f5e4-4d3e-8604-443b44cdf45c",
+			"name": "CreateUser",
+			"url": "https://dummyjson.com/products/add",
+			"time": 1590,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1590
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b9c0e156-a53f-487f-8196-bf69e8133681",
+			"name": "DeleteUser",
+			"url": "https://dummyjson.com/products/1",
+			"time": 310,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				310
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5243,
+	"collection": {
+		"requests": [
+			{
+				"id": "1082e01f-af8a-40d6-8700-93931a3d2da1",
+				"method": "GET"
+			},
+			{
+				"id": "6cee5710-f5e4-4d3e-8604-443b44cdf45c",
+				"method": "POST"
+			},
+			{
+				"id": "b9c0e156-a53f-487f-8196-bf69e8133681",
+				"method": "DELETE"
+			}
+		]
+	}
+}
